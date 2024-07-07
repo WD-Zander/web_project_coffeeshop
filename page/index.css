@@ -1,0 +1,11 @@
+.page
+{
+    background-color: darkblue;
+    min-width: 1100px;
+    max-width: 1600px;
+
+}
+
+.content {
+    background-color: red;
+}
