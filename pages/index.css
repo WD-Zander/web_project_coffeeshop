@@ -53,6 +53,10 @@
     background-image: url(../images/background_header.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: 800px;
+    min-height: 720px;
+    height: 100vh;
+
 
 }
 
