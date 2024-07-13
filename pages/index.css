@@ -19,7 +19,7 @@
     padding: 0;
 }
 
-.nav__menu {
+.nav__links {
 
     display: flex;
     column-gap: 20px;
@@ -38,7 +38,7 @@
 
 }
 
-.nav__links {
+.nav__link {
     text-decoration: none;
     color: black;
 
