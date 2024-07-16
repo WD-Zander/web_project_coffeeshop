@@ -209,7 +209,7 @@
   padding-bottom: 120px;
 }
 
-.resevation__fieldset {
+.reservation__fieldset {
   display: flex;
   flex-direction: column;
   max-width: 385px;
