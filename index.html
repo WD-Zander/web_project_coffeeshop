@@ -110,14 +110,15 @@
           <h2 class="reservation__title">Reservar una Mesa</h2>
           <form class="reservation__form">
             <fieldset class="form__fieldset">
-              <label for="" class="form__label">Nombre</label>
+              <label for="Nombre" class="form__label">Nombre</label>
               <input
                 type="text"
                 placeholder="Nombre"
                 required
                 class="form__input"
+                id="Nombre"
               />
-              <label for="" class="form__label">Numero de Comensales</label>
+              <label for="comensales" class="form__label">Numero de Comensales</label>
               <input
                 type="number"
                 placeholder="1-8"
@@ -125,15 +126,17 @@
                 class="form__input"
                 max="8"
                 min="1"
+                id="comensales"
               />
-              <label for="" class="form__label">Fecha y Hora</label>
-              <input type="datetime-local" required class="form__input" />
-              <label for="" class="form__label">Tu Correo Electronico</label>
+              <label for="fecha" class="form__label">Fecha y Hora</label>
+              <input type="datetime-local" required class="form__input" id="fecha"/>
+              <label for="email" class="form__label">Tu Correo Electronico</label>
               <input
                 type="email"
                 placeholder="email@email.com"
                 required
                 class="form__input"
+                id="email"
               />
               <fieldset class="form__container"> 
               <button type="submit" class="form__button" >
