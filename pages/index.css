@@ -240,7 +240,16 @@
   font-size: 16px;
   line-height: 20px;
   height: 60px;
+  border-radius: 4px;
+  opacity: 100%;
 }
+
+.reservation__button:hover {
+    opacity: 70%;
+}
+
+
+
 
 .reservation__container {
   padding: 0;
@@ -264,3 +273,7 @@
     padding-left: 20px; 
     padding-top: 15px;
   }
+
+  .reservation__container-checkbox input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; }
