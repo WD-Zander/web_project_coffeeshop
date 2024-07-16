@@ -191,7 +191,6 @@
 }
 
 .reservation__title {
-  margin: auto;
   text-align: center;
   font-family: Inter;
   font-style: normal;
@@ -210,7 +209,7 @@
   padding-bottom: 120px;
 }
 
-.form__fieldset {
+.resevation__fieldset {
   display: flex;
   flex-direction: column;
   max-width: 385px;
@@ -233,8 +232,6 @@
 .form__button {
   max-width: 385px;
   width: 100%;
- 
-
   background-color: #2f80ed;
   color: white;
   font-family: Inter;
