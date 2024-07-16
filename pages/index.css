@@ -242,13 +242,13 @@
   height: 60px;
 }
 
-.form__container {
+.reservation__container {
   padding: 0;
   border: 0;
   
 }
 
-.form__container-checkbox {
+.reservation__container-checkbox {
   display: flex;
   flex-direction: row;
   align-items: center;
