@@ -105,11 +105,10 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          
           <h2 class="reservation__title">Reservar una Mesa</h2>
           <form class="form reservation__form">
             <fieldset class="reservation__fieldset">
-              <label for="Nombre" class="reservation__label">Nombre</label>
+              <label for="Nombre" class="reservation__label">Nombre *</label>
               <input
                 type="text"
                 placeholder="Nombre"
@@ -117,7 +116,9 @@
                 class="reservation__input"
                 id="Nombre"
               />
-              <label for="comensales" class="reservation__label">Numero de Comensales</label>
+              <label for="comensales" class="reservation__label"
+                >Numero de Comensales *</label
+              >
               <input
                 type="number"
                 placeholder="1-8"
@@ -127,9 +128,16 @@
                 min="1"
                 id="comensales"
               />
-              <label for="fecha" class="reservation__label">Fecha y Hora</label>
-              <input type="datetime-local" required class="reservation__input" id="fecha"/>
-              <label for="email" class="reservation__label">Tu Correo Electronico</label>
+              <label for="fecha" class="reservation__label">Fecha y Hora *</label>
+              <input
+                type="datetime-local"
+                required
+                class="reservation__input"
+                id="fecha"
+              />
+              <label for="email" class="reservation__label"
+                >Tu Correo Electronico *</label
+              >
               <input
                 type="email"
                 placeholder="email@email.com"
@@ -137,35 +145,52 @@
                 class="reservation__input"
                 id="email"
               />
-              <fieldset class="reservation__container"> 
-              <button type="submit" class="reservation__button" >
-                Reservar una Mesa
-              </button>
+              <fieldset class="reservation__container">
+                <button type="submit" class="reservation__button">
+                  Reservar una Mesa
+                </button>
+              </fieldset>
+              <fieldset
+                class="reservation__container reservation__container-checkbox"
+              >
+                <input type="checkbox" required />
+                <p>Acepto los términos de uso</p>
+              </fieldset>
             </fieldset>
-            <fieldset class="reservation__container reservation__container-checkbox"> 
-              <input type="checkbox" required />
-              <p>Acepto los términos de uso</p>
-            </fieldset>
-            </fieldset>
-            
           </form>
         </section>
       </main>
       <footer class="footer" id="footer">
         <div class="footer__content">
-         <img src="./images/logo_coffeeshop_light.svg" alt="" class="footer__logo">
-         <div class="footer__social">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt=""
+            class="footer__logo"
+          />
+          <div class="footer__social">
             <h3 class="footer__social-heading">Redes Sociales</h3>
             <ul class="footer__list">
-              <li class="footer__list-item"> <img src="./images/facebook_white.svg" alt="" class="footer__social-icon"> <a href="" class="footer__social-link">Facebook</a></li>
-              <li class="footer__list-item"> <img src="./images/instagram_white.svg" alt="" class="footer__social-icon"> <a href="" class="footer__social-link">Instagram</a></li>
-              
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+                <a href="" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+                <a href="" class="footer__social-link">Instagram</a>
+              </li>
             </ul>
-         </div>
-         
+          </div>
         </div>
+        <div class="footer__circle"></div>
         <p class="footer__copyright">© 2004 Zander Garcia</p>
-          
       </footer>
     </div>
   </body>

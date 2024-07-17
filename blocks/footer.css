@@ -1,5 +1,7 @@
 .footer {
   background-color: #0a2850;
+  overflow: hidden;
+  position: relative;
 }
 
 .footer__content {
@@ -23,6 +25,7 @@
 .footer__logo {
   width: 105px;
   height: 39px;
+  z-index: 2;
 }
 
 .footer__social-icon {
@@ -50,8 +53,24 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+
 }
 
 .footer__list {
   list-style: none;
+}
+
+.footer__circle {
+  background-color: #2f80ed;
+  position: absolute;
+  height: 340px;
+  width: 340px;
+  border-radius: 50%;
+  left: -44px;
+  top: -128px;
+  z-index: 1;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
